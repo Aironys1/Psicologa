@@ -32,50 +32,92 @@ body{
     background-color:#ffffff;
 }
 
+.home{
+    background-color:#8eb4db;
+}
+.home a{
+    color: white !important;
+}
+
 
 
 ul{
     display: flex;
     flex-wrap: wrap;
-    gap:10px;
     justify-content: center;
     background-color:#dfeef6;
     border-radius: 10px;
+    border: 1px solid #8eb4db;
 }
 
 ul li {
-    font-size:25px;
+    font-size:1.3rem;
    
 }
-ul li:hover {
-    font-size:25px;
-    background-color:#f9f6ac;
+ul li a:hover {
+    font-size:1.3rem;
+    background-color:#8eb4db;
+    color: white !important;
+   
 
 }
 
-.btn{
-    margin-top:20px;
-    background-color:rgb(237, 241, 245);
+/*Banner Topo*/
+.banner{
     border-radius: 20px;
+    width: 900px;
+}
+
+/*Botão whats Agendar consulta*/
+
+
+.caixaWhats{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.caixaWhats a{
+    text-decoration: none;
+}
+.btn{
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
+    border: 3px solid white;
+    color:#8eb4db;
+    font-weight: bold;
+    font-size: 1.3rem;
+
 }
 .btn:hover{
-    background-color:rgb(142, 180, 219);
+    background-color:#8eb4db;
     color: white;
-    width: 300px;
 }
 
 /* SEJA BEM VINDO*/
 h1{
     text-align: center;
+    color: #ffa600ec;
+}
+
+h2{
+    text-align: center;
+    color: #ffa600ec;
+    padding-top:10px;
 }
 
 
-.sessao2 .row{
+.sessao .row{
     
     display: flex;
     margin: 30px;
     gap: 50px;
     height: 400px;
+    align-items: center;
+}
+
+.galeria{
+    display: flex;
     align-items: center;
 }
 
@@ -85,7 +127,7 @@ h1{
     text-align: justify;
     color: rgb(107, 100, 100);
     line-height: 25px;
-    margin: 20px;
+    margin-top: 60px;
     border-radius: 20px;
     
 }
@@ -118,9 +160,9 @@ h1{
 }
 
 
-.eu{
+.perfil{
     width: 100%;
-    max-width: 400px;
+    width: 200px;
     display: flex;
     margin: auto;
     border-radius: 20px;
@@ -139,18 +181,54 @@ h3{
 }
 
 .img-footer {
-    height: 200px;
-    margin-bottom:100px;
+    height: 100px;
     border-radius: 20px;
 }
 
+/*Conteudo Geral*/
+
+.conteudo{
+    background-color: #8eb4db;
+    padding: 10px;
+    
+}
+
+.conteudos{
+    background-color: #dfeef6;
+    margin: 20px;
+    height: 300px;
+   
+}
+
+.conteudos .redesSociais{
+   
+    padding-top: 50px;
+
+}
+
+.conteudos .redesSociais img{
+    width: 50px;
+    margin-right: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+
 footer{
-    position: fixed;
+    position: static;
     bottom: 0;
-    background-color:#ece7e7;
+    background-color:#8eb4db;
     width: 100%;
     color: #ffffff;
     padding: 5px;
+    height: 30px;
+
+}
+
+footer address{
+    text-align: center;
+    padding: 60px;
+    color: black;
 }
 
 

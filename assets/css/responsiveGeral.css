@@ -11,8 +11,10 @@
     }
 
     nav ul{
-        height:100vh;
+        height:40vh;
     }
+
+    
 
     .texto{
         display:block;
@@ -29,15 +31,7 @@
         width: 100%;
     }
 
-    .galeria p{
-        background-color:rgb(255, 255, 255);
-    padding: 20px;
-    text-align: justify;
-    color: rgb(107, 100, 100);
-    line-height: 25px;
-    margin: 20px;
-    border-radius: 20px;
-    }
+    
  
 }
 
