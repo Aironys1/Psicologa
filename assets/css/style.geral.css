@@ -51,11 +51,11 @@ ul{
 }
 
 ul li {
-    font-size:1.3rem;
+    font-size:1.1rem;
    
 }
 ul li a:hover {
-    font-size:1.3rem;
+    font-size:1.1rem;
     background-color:#8eb4db;
     color: white !important;
    
@@ -97,12 +97,12 @@ ul li a:hover {
 /* SEJA BEM VINDO*/
 h1{
     text-align: center;
-    color: #ffa600ec;
+    color:#8eb4db;
 }
 
 h2{
     text-align: center;
-    color: #ffa600ec;
+    color:#8eb4db;
     padding-top:10px;
 }
 
@@ -121,16 +121,7 @@ h2{
     align-items: center;
 }
 
-.galeria p{
-    background-color:rgb(255, 255, 255);
-    padding: 20px;
-    text-align: justify;
-    color: rgb(107, 100, 100);
-    line-height: 25px;
-    margin-top: 60px;
-    border-radius: 20px;
-    
-}
+
 
 .redes{
     display: flex;
@@ -140,13 +131,14 @@ h2{
 }
 
 .texto{
-    background-color:rgb(255, 255, 255);
+    background-color:#ffffff;
     padding: 20px;
     text-align: justify;
-    color: rgb(107, 100, 100);
+    color:#ffa600ec;
     line-height: 25px;
     margin: 20px;
     border-radius: 20px;
+    font-size: 1rem;
     
 }
 
@@ -211,6 +203,12 @@ h3{
     margin-right: 10px;
     display: block;
     margin: 20px auto;
+}
+
+.conteudos p{
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    font-size: 1rem;
 }
 
 
