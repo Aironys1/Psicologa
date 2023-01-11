@@ -188,7 +188,8 @@ h3{
 .conteudos{
     background-color: #dfeef6;
     margin: 20px;
-    height: 300px;
+    border-radius: 20px;
+    padding:10px;
    
 }
 
