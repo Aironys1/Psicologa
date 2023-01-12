@@ -22,7 +22,8 @@ body{
 }
 
 .logo{
-    width: 10rem;
+    width: 20rem;
+
 }
 
 .menu{
@@ -32,6 +33,9 @@ body{
 
 .navbar-toggler{
     background-color:#ffffff;
+    border-radius: 5px;
+    border: 3px solid #8eb4db !important;
+    
 }
 
 .home{
@@ -112,6 +116,24 @@ h2{
     padding-top:10px;
 }
 
+/*Serviços*/
+
+.servicos{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servicos div{
+    color: #8eb4db;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+
+
 /*ellas*/
 .galeria-ellas{
     display: flex;
@@ -121,9 +143,6 @@ h2{
 .galeria-ellas img{
     border-radius: 20px;
 }
-
-
-
 
 
 .sessao .row{
@@ -152,12 +171,12 @@ h2{
 .texto{
     background-color:#ffffff;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     color:#777571ec;
     line-height: 25px;
     margin: 20px;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 1rem !important;
     
 }
 
@@ -189,7 +208,7 @@ h2{
     line-height: 25px;
     margin: 20px;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
 
 .galeria-ellas span{
