@@ -20,13 +20,14 @@
 
     .conteudo{
         background-color: #8eb4db;
-        padding: 0px;
+        padding: 20;
         
     }
     
     .conteudos{
         background-color: #dfeef6;
-        margin: 10px;
+        margin: 0px;
+        margin-bottom: 5px;
         border-radius: 20px;
        
     }
