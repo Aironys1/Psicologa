@@ -9,10 +9,12 @@ body{
     overflow-x: hidden;
 }
 
+/*Logo e Menu*/
+.logo-menu{
+    margin: 30px;
+}
 
 /* HOME */
-
-
 
 .menu-geral{
     display: block;
@@ -20,7 +22,7 @@ body{
 }
 
 .logo{
-    max-width: 200px;
+    width: 10rem;
 }
 
 .menu{
@@ -47,26 +49,27 @@ ul{
     justify-content: center;
     background-color:#dfeef6;
     border-radius: 10px;
-    border: 1px solid #8eb4db;
 }
 
 ul li {
     font-size:1.1rem;
-   
+    border-radius: 10px;
+    font-weight: bold;  
+}
+ul li a{
+    color: #8eb4db !important;
 }
 ul li a:hover {
     font-size:1.1rem;
     background-color:#8eb4db;
     color: white !important;
+    border-radius: 10px;
+
    
 
 }
 
-/*Banner Topo*/
-.banner{
-    border-radius: 20px;
-    width: 900px;
-}
+
 
 /*Botão whats Agendar consulta*/
 
@@ -75,6 +78,7 @@ ul li a:hover {
    display: flex;
    align-items: center;
    justify-content: center;
+   background-color: #8eb4db;
 }
 .caixaWhats a{
     text-decoration: none;
@@ -98,6 +102,8 @@ ul li a:hover {
 h1{
     text-align: center;
     color:#8eb4db;
+    font-size: 2rem;
+    margin-top: 30px;
 }
 
 h2{
@@ -105,6 +111,19 @@ h2{
     color:#8eb4db;
     padding-top:10px;
 }
+
+/*ellas*/
+.galeria-ellas{
+    display: flex;
+    align-items: center;
+}
+
+.galeria-ellas img{
+    border-radius: 20px;
+}
+
+
+
 
 
 .sessao .row{
@@ -134,7 +153,7 @@ h2{
     background-color:#ffffff;
     padding: 20px;
     text-align: justify;
-    color:#ffa600ec;
+    color:#777571ec;
     line-height: 25px;
     margin: 20px;
     border-radius: 20px;
@@ -154,13 +173,32 @@ h2{
 
 .perfil{
     width: 100%;
-    width: 200px;
+    width: 300px;
     display: flex;
     margin: auto;
     border-radius: 20px;
    
 
 }
+
+.galeria-ellas p {
+    background-color:#ffffff;
+    padding: 20px;
+    text-align: center;
+    color:#777571ec !important;
+    line-height: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.galeria-ellas span{
+    color:#8eb4db;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
 
 h3{
     text-align: center;

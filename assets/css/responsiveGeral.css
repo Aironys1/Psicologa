@@ -11,7 +11,10 @@
     }
 
     nav ul{
-        height:40vh;
+        height:80vh;
+    }
+    nav li{
+        margin: 20px;
     }
 
     
@@ -30,6 +33,15 @@
         margin: 20px auto;
         width: 100%;
     }
+    .conteudo{
+        width: 100vw;
+
+    }
+
+    .galeria-ellas{
+        display: block;
+        width: 100%;
+    }
 
     
  
@@ -38,5 +50,12 @@
 @media (max-width: 1000px){
     .galeria{
         display:block
+    }
+
+    .galeria-ellas{
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        width: 100%;
     }
 }
